@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "863459223203",
+    "firebase_url": "https://delifood-c1759.firebaseio.com",
+    "project_id": "delifood-c1759",
+    "storage_bucket": "delifood-c1759.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863459223203:android:d55fe150bb4ed783",
+        "android_client_info": {
+          "package_name": "com.example.delifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863459223203-srn8rc6n0fmtb5nffhh283pfj98b4oni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delifood",
+            "certificate_hash": "f6d984155476599a4f072147665985e0ad9e5d39"
+          }
+        },
+        {
+          "client_id": "863459223203-90rk3tjv1h73d80o2j5og97vgj3smjop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTHNYSWmqZfgE3y0_q3kNr6BKcDVvxaVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863459223203-90rk3tjv1h73d80o2j5og97vgj3smjop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
