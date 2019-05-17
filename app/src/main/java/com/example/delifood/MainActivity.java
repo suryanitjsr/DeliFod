@@ -63,9 +63,13 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onItemClick(View view, int position) {
                                 TextView mTitleTv = view.findViewById(R.id.resName);
+                                TextView mImgUrl = view.findViewById(R.id.resImgUrl);
                                 String resTitle = mTitleTv.getText().toString();
+                                String imgUrl = mImgUrl.getText().toString();
+
                                 Intent intent = new Intent(view.getContext(),resItemActivity.class);
                                 intent.putExtra("title",resTitle);
+                                intent.putExtra("image",imgUrl);
 
                                 startActivity(intent);
                             }
@@ -100,9 +104,13 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onItemClick(View view, int position) {
                                 TextView mTitleTv = view.findViewById(R.id.resName);
+                                TextView mImgUrl = view.findViewById(R.id.resImgUrl);
                                 String resTitle = mTitleTv.getText().toString();
+                                String imgUrl = mImgUrl.getText().toString();
+
                                 Intent intent = new Intent(view.getContext(),resItemActivity.class);
                                 intent.putExtra("title",resTitle);
+                                intent.putExtra("image",imgUrl);
 
                                 startActivity(intent);
                             }

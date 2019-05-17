@@ -31,9 +31,13 @@ public class resItemActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Items List");
         String headerText=getIntent().getStringExtra("title");
+        String imggUrl = getIntent().getStringExtra("image");
 
         TextView hText = findViewById(R.id.headerText);
         hText.setText(headerText);
+
+        ImageView hImage = findViewById(R.id.headerImage);
+        Picasso.get().load(imggUrl).into(hImage);
 //        Toast.makeText(this, headerText, Toast.LENGTH_SHORT).show();
 
         actionBar.setDisplayHomeAsUpEnabled(true);
